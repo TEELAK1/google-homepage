@@ -1,0 +1,56 @@
+<html>
+<head>
+<title> GOOGLE SEARCH CLONE</title>
+<link rel="stylesheet" href="stylr.css">
+</head>
+<body>
+<header>
+<nav>
+<ul id="nav_bar">
+<li class="nav_links" id="gmail"><a href="https://www.google.com/gmail/about/" target="_blank">Gmail</a></li>
+<li class="nav_links"><a href="https://www.google.com/imghp?hl=ne&ogbl" target="_blank" >Image</a></li>
+<li id="sign_in"><a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&hl=ne&ifkv=AXo7B7UK-G0_GsMouasvG-e9wVlDhP7USnQ9rFybQy_XIkKWuSNpcovfMrKzNrwQYmGzglWg5VhmUA&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1276094214%3A1693554102934041&theme=glif" target="_blank">Sign in</a></li>
+</ul>
+</nav>
+</header>
+<div class="google">
+<a herf="" id="google_logo"><img src="TILAK.jpg">
+</div>
+
+    <div class="form">  
+      <form id="frmSearch"  method="get" />
+<input  type="text" id="txtSearch"     
+placeholder="Feel Free to Search"  />
+
+
+<div class= "buttons">  
+      <input type="submit" value="Google Search" id="google_search">
+      <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
+    </div>
+
+<script type="text/javascript">
+    document.getElementById('frmSearch').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=' + document.getElementById('txtSearch').value;
+        return false;
+    }
+</script>
+
+
+<footer>
+<ul class=-"footer-left">
+<li> <a href="https://ads.google.com/intl/en_np/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1 " target="_blank">Advertising</a></li>
+<li> <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none" target="_blank">Business</a></li>
+<li> <a href="https://about.google/?utm_source=google-NP&utm_medium=referral&utm_campaign=hp-footer&fg=1" target="_blank">About</a></li>
+<li> <a href="https://www.instagram.com/t_e_e_l_a_k_1/" target="_blank"><h1> GET CONNECTED IN INSTAGRAM</h1></a></li>
+
+</ul>
+<ul class="footer-right">
+<li> <a href="https://policies.google.com/privacy?hl=en-NP&fg=1 " target="_blank">Privacy</a></li>
+<li> <a href="https://policies.google.com/terms?hl=en-NP&fg=1" target="_blank">Term</a></li>
+<li> <a href="">Settings</a> </li>
+<li> <a href="https://www.facebook.com/tilak.neupane.142" target="_blank"><h1> GET CONNECTED IN FACEBOOK</h1></a></li>
+</ul>
+</footer>
+</body>
+</html>
+
